@@ -7,6 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		765F886326A4DA76001FE78F /* StateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 765F886226A4DA76001FE78F /* StateView.swift */; };
+		765F886526A4DB7E001FE78F /* BindingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 765F886426A4DB7E001FE78F /* BindingView.swift */; };
+		765F886726A4E2DA001FE78F /* EnvironmentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 765F886626A4E2DA001FE78F /* EnvironmentView.swift */; };
+		767AE5E526A26CD200B79A6F /* ImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 767AE5E426A26CD200B79A6F /* ImageView.swift */; };
+		767AE5E726A27A8600B79A6F /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 767AE5E626A27A8600B79A6F /* MapView.swift */; };
+		767AE5E926A27DDF00B79A6F /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 767AE5E826A27DDF00B79A6F /* MainView.swift */; };
+		767AE5EC26A27FAB00B79A6F /* Programmer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 767AE5EB26A27FAB00B79A6F /* Programmer.swift */; };
+		767AE5F026A2804F00B79A6F /* RowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 767AE5EF26A2804F00B79A6F /* RowView.swift */; };
+		767AE5F226A283C500B79A6F /* ListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 767AE5F126A283C500B79A6F /* ListView.swift */; };
+		767AE5F426A4B1F000B79A6F /* ListDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 767AE5F326A4B1F000B79A6F /* ListDetailView.swift */; };
 		76C541E426A2464800C3810F /* SwiftUIBasicsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76C541E326A2464800C3810F /* SwiftUIBasicsApp.swift */; };
 		76C541E626A2464800C3810F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76C541E526A2464800C3810F /* ContentView.swift */; };
 		76C541E826A2464D00C3810F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 76C541E726A2464D00C3810F /* Assets.xcassets */; };
@@ -14,6 +24,16 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		765F886226A4DA76001FE78F /* StateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StateView.swift; sourceTree = "<group>"; };
+		765F886426A4DB7E001FE78F /* BindingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BindingView.swift; sourceTree = "<group>"; };
+		765F886626A4E2DA001FE78F /* EnvironmentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnvironmentView.swift; sourceTree = "<group>"; };
+		767AE5E426A26CD200B79A6F /* ImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageView.swift; sourceTree = "<group>"; };
+		767AE5E626A27A8600B79A6F /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		767AE5E826A27DDF00B79A6F /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		767AE5EB26A27FAB00B79A6F /* Programmer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Programmer.swift; sourceTree = "<group>"; };
+		767AE5EF26A2804F00B79A6F /* RowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RowView.swift; sourceTree = "<group>"; };
+		767AE5F126A283C500B79A6F /* ListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListView.swift; sourceTree = "<group>"; };
+		767AE5F326A4B1F000B79A6F /* ListDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListDetailView.swift; sourceTree = "<group>"; };
 		76C541E026A2464800C3810F /* SwiftUIBasics.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUIBasics.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		76C541E326A2464800C3810F /* SwiftUIBasicsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIBasicsApp.swift; sourceTree = "<group>"; };
 		76C541E526A2464800C3810F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -33,6 +53,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		765F886126A4DA54001FE78F /* PropertyWrappers */ = {
+			isa = PBXGroup;
+			children = (
+				765F886226A4DA76001FE78F /* StateView.swift */,
+				765F886426A4DB7E001FE78F /* BindingView.swift */,
+				765F886626A4E2DA001FE78F /* EnvironmentView.swift */,
+			);
+			path = PropertyWrappers;
+			sourceTree = "<group>";
+		};
+		767AE5EA26A27F9B00B79A6F /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				767AE5EB26A27FAB00B79A6F /* Programmer.swift */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
 		76C541D726A2464700C3810F = {
 			isa = PBXGroup;
 			children = (
@@ -52,8 +90,16 @@
 		76C541E226A2464800C3810F /* SwiftUIBasics */ = {
 			isa = PBXGroup;
 			children = (
+				765F886126A4DA54001FE78F /* PropertyWrappers */,
+				767AE5EA26A27F9B00B79A6F /* Data */,
 				76C541E326A2464800C3810F /* SwiftUIBasicsApp.swift */,
+				767AE5E826A27DDF00B79A6F /* MainView.swift */,
+				767AE5F326A4B1F000B79A6F /* ListDetailView.swift */,
 				76C541E526A2464800C3810F /* ContentView.swift */,
+				767AE5EF26A2804F00B79A6F /* RowView.swift */,
+				767AE5F126A283C500B79A6F /* ListView.swift */,
+				767AE5E426A26CD200B79A6F /* ImageView.swift */,
+				767AE5E626A27A8600B79A6F /* MapView.swift */,
 				76C541E726A2464D00C3810F /* Assets.xcassets */,
 				76C541EC26A2464D00C3810F /* Info.plist */,
 				76C541E926A2464D00C3810F /* Preview Content */,
@@ -138,7 +184,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				767AE5F226A283C500B79A6F /* ListView.swift in Sources */,
+				765F886526A4DB7E001FE78F /* BindingView.swift in Sources */,
+				767AE5E526A26CD200B79A6F /* ImageView.swift in Sources */,
+				765F886326A4DA76001FE78F /* StateView.swift in Sources */,
+				765F886726A4E2DA001FE78F /* EnvironmentView.swift in Sources */,
+				767AE5EC26A27FAB00B79A6F /* Programmer.swift in Sources */,
+				767AE5F026A2804F00B79A6F /* RowView.swift in Sources */,
+				767AE5E726A27A8600B79A6F /* MapView.swift in Sources */,
 				76C541E626A2464800C3810F /* ContentView.swift in Sources */,
+				767AE5F426A4B1F000B79A6F /* ListDetailView.swift in Sources */,
+				767AE5E926A27DDF00B79A6F /* MainView.swift in Sources */,
 				76C541E426A2464800C3810F /* SwiftUIBasicsApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
